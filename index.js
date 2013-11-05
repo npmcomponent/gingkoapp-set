@@ -104,10 +104,6 @@ Object.defineProperty(Set.prototype, 'size', {
   }
 });
 
-/**
- * Type checking helpers
- */
-
 // check type to use object container
 function isString(val) {
   return typeof val == 'string';
