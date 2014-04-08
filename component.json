@@ -1,8 +1,10 @@
 {
   "name": "set",
-  "repo": "gingkoapp/set",
+  "repository": "gingkoapp/set",
   "description": "ES6 Set Polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "license": "MIT",
+  "main": "index.js",
   "keywords": [
     "ES6",
     "set",
@@ -12,10 +14,13 @@
     "component/type": "*"
   },
   "development": {
-    "chaijs/chai": "*"
+    "dependencies": {
+      "chaijs/chai": "*"
+    },
+    "scripts": [
+      "test.js"
+    ]
   },
-  "license": "MIT",
-  "main": "index.js",
   "scripts": [
     "index.js"
   ]
