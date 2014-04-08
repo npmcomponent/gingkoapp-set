@@ -1,7 +1,7 @@
-describe('Set', function() {
-  var Set = require('set');
-  var expect = require('chai').expect;
+var Set = require('./index');
+var expect = require('chai').expect;
 
+describe('Set', function() {
   it('returns a new set', function() {
     var set = new Set();
     expect(set instanceof Set).true;
