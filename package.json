@@ -1,0 +1,15 @@
+{
+  "name": "gingkoapp-set",
+  "description": "ES6 Set Polyfill",
+  "version": "1.0.1",
+  "keywords": [
+    "ES6",
+    "set",
+    "polyfill"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "component-type": "git://github.com/npmcomponent/component-type.git"
+  },
+  "license": "MIT"
+}
